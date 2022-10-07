@@ -76,7 +76,7 @@ app.get('/', (req, res) => {
                     }); // pass the data from the server to the template
             }
         });
-})cdf 
+});
 
 // defines a route that receives the post request to /event
 app.post('/event',
